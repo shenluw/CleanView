@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CleanProgress">
+        <attr name="mark" format="string"/>
+        <attr name="progressTextSize" format="dimension"/>
+        <attr name="progressTextColor" format="color"/>
+        <attr name="startProgress" format="integer"/>
+        <attr name="targetProgress" format="integer"/>
+
+        <attr name="innerRadius" format="dimension"/>
+        <attr name="outerRadius" format="dimension"/>
+        <attr name="innerCircleColor" format="color"/>
+        <attr name="outerCircleColor" format="color"/>
+        <!--<attr name="outerCircleTargetColor" format="color"/>-->
+        <!--<attr name="innerCircleTargetColor" format="color"/>-->
+
+        <attr name="ringColor" format="color"/>
+        <attr name="ringAngular" format="integer"/>
+        <attr name="ringAcceleration" format="integer"/>
+        <attr name="ringSweepAngle" format="integer"/>
+        <attr name="ringTargetAngle" format="integer"/>
+
+        <attr name="circleLineColor" format="color"/>
+        <attr name="circleLineWidth" format="dimension"/>
+        <attr name="lineCount" format="integer"/>
+
+        <attr name="fractionTexts" format="reference"/>
+        <attr name="fractionTextSize" format="dimension"/>
+        <attr name="fractionColor" format="color"/>
+        <attr name="fractionGenerateInterval" format="float"/>
+        <attr name="fractionGenerateFactor" format="float"/>
+
+        <attr name="piece" format="float"/>
+        <attr name="duration" format="integer"/>
+
+    </declare-styleable>
+
+</resources>

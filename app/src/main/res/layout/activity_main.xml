@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res/com.martian.cleanview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.martian.cleanview.sample.MainActivity">
+
+    <com.martian.cleanview.CleanProgress
+        android:id="@+id/cp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        myapp:fractionTexts="@array/mc_fraction_text"/>
+</RelativeLayout>
